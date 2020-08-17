@@ -35,9 +35,11 @@ public class CalcFib {
             }
         }
     }
-
+/*
     public static void main(String[] args) {
         CalcFib instance = new CalcFib();
         instance.executeProgram("20");
+        
     }
+    */
 }
