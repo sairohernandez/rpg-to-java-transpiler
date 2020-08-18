@@ -1,16 +1,8 @@
-# RPG to Java transpiler
+# RPG a Java transpiler reproduccion en Eclipse 
 
-This repository contains a simple transpiler from RPG code to Java.
+1. Despues de descargar el proyecto, agregar gradle la proyecto, Para agregar Gradle a nuestro proyecto debemos dar clic derecho sobre el proyecto "rpg-to-java-transpiler", seleccionar la opción configure y posteriormente "add Gradle Nature",Esto hace que a nuestro proyecto se agreguen las referencias automáticamente 
 
-This code was written for the tutorial on transpilers at  [https://tomassetti.me/how-to-write-a-transpiler/]( https://tomassetti.me/how-to-write-a-transpiler/).
+2. para poder ejecutar nuestra aplicación  transpiler.kt debemos configurar una tarea de Gradle con la instrucción Run y referenciando nuestra área de trabajo "Working Directory", para ello vamos al menú Run y clic en "Run configurations" ahi creamos una tarea Gradle dando clic en "New Configurations" sobre "Gradle Taks". 
 
-This project takes advantage of:
 
-* The RPG parser from [Jariko](https://github.com/smeup/jariko). Jariko is a JVM interpreter for RPG. To learn more about Jariko you can read [this article](https://tomassetti.me/jariko-an-rpg-interpreter-in-kotlin/)
-* [JavaParser](https://javaparser.org), a library to parse and process Java code
-* [Kolasu](https://github.com/Strumenta/kolasu), a library to define ASTs
 
-## Acknowledgements
-
-Thanks to Sme.UP and Franco Lombardo for their work on Jariko, the JVM interpreter for RPG.
-We have derived examples from that project.
